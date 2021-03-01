@@ -6,7 +6,7 @@ from wtforms.validators import DataRequired
 
 # create a flask app
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "My game is not good"
+app.config['SECRET_KEY'] = ""
 
 #create a form class
 class NamerForm(FlaskForm):
